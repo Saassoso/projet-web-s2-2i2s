@@ -5,6 +5,8 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
 import Profile from './pages/Profile';
+import Notification from './pages/Notification';
+import Predictions from './pages/Predictions';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer'; 
 import ErrorBoundary from './components/common/ErrorBoundary';
@@ -31,6 +33,9 @@ function App() {
       <Route path="/profile" element={<Profile />} />
       <Route path="/teams" element={<TeamsPage />} />
       <Route path="/StandingPage" element={<StandingsPage />} />
+      <Route path="/notifications" element={<Notification />} />
+      <Route path="/predictions" element={<Predictions />} />
+      {/* Add more protected routes as needed */}
     </Route>
   </Route>
 </Routes>

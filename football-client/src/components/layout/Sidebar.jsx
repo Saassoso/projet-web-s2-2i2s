@@ -22,6 +22,7 @@ const Sidebar = () => {
     { name: 'Teams', href: '/teams', icon: ChartBarIcon },
     { name: 'Standing', href: '/StandingPage', icon: ClipboardListIcon },
     { name: 'Notifications', href: '/notifications', icon: BellIcon },
+    { name: 'Predictions', href: '/predictions', icon: ChartBarIcon },
     //{ name: 'Settings', href: '/settings', icon: CogIcon },
   ];
 

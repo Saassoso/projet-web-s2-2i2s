@@ -16,6 +16,7 @@ const preferencesRoutes = require('./routes/preferences');
 const teamsRoutes = require('./routes/teams');
 const predictionRoutes = require('./routes/predictions');
 const notificationService = require('./services/NotificationService');
+
 // Start notification service
 app.use('/auth', authRoutes);
 app.use('/matches', matchesRoutes);
@@ -26,7 +27,7 @@ app.use('/predictions', predictionRoutes);
 
 const PORT = process.env.PORT || 5000;
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/eongo')
+mongoose.connect(process.env.MONGO_URI)
 .then(() => console.log('MongoDB connected'))
 .catch(err => console.error('MongoDB error:', err));
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
