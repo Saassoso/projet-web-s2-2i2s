@@ -1,8 +1,8 @@
-# Football API Server - Master 2I2S
+# Football Prediction APP - Master 2I2S
 
 ## 📋 Description du projet
 
-Le **Football API Server** est une API RESTful développée en **Node.js** avec **Express.js**, permettant d'accéder à des données en temps réel sur le football, telles que les matchs en direct, les classements, et les informations sur les équipes. Il inclut également des prédictions de matchs alimentées par **Gemini AI**, ainsi que des notifications en temps réel pour les équipes suivies par les utilisateurs. Le système offre une gestion complète des utilisateurs avec authentification et gestion des préférences.
+Le **Football Prediction APP** est une API RESTful développée en **Node.js** avec **Express.js**, permettant d'accéder à des données en temps réel sur le football, telles que les matchs en direct, les classements, et les informations sur les équipes. Il inclut également des prédictions de matchs alimentées par **Gemini AI**, ainsi que des notifications en temps réel pour les équipes suivies par les utilisateurs. Le système offre une gestion complète des utilisateurs avec authentification et gestion des préférences.
 
 ### Fonctionnalités principales :
 
