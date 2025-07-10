@@ -47,18 +47,9 @@ L'architecture du projet repose sur une séparation claire entre le **front-end*
 ```
 /football-api-server
 ├── backend/
-│   ├── controllers/          # Logique des contrôleurs de l'API
-│   ├── models/               # Schémas MongoDB avec Mongoose
-│   ├── routes/               # Définition des routes API
-│   ├── services/             # Services externes (API Football, Gemini AI)
-│   ├── middleware/           # Middleware (authentification, validation)
-│   ├── config/               # Configuration (CORS, variables d'environnement)
-│   └── index.js              # Entrée principale du serveur
+
 ├── frontend/                 # Frontend React (ou autre)
-│   ├── components/           # Composants réutilisables
-│   ├── pages/                # Pages principales
-│   ├── utils/                # Utilitaires (ex. gestion des notifications)
-│   └── App.js                # Point d'entrée React
+
 ├── .gitignore                # Fichiers et répertoires ignorés
 ├── docker-compose.yml        # Définition des services Docker
 ├── README.md                 # Documentation du projet
